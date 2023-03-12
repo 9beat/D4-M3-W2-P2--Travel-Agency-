@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.card:hover {
+    cursor: pointer;
+    transform: scale(120%);
+    transition-delay: .3s;
+    transition-duration: .2s;
+    transition-timing-function: ease;
+    z-index: 999;
+    box-shadow: 0 10px 500px 20px rgb(17, 0, 38)
+    
+}
+
+#day-offer img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+} 
+
+#jumbo-payoff div {
+    background-image: url("./assets/World-PNG-HD-Quality.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% -2%;
+    text-shadow: -1px 0 #000000, 0 1px #000000, 1px 0 #000000, 0 -1px #000000;
+
+}
+
+
+.navbar {
+    color: warning;
+}
